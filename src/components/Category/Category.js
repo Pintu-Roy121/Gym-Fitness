@@ -11,9 +11,9 @@ const Category = ({ category }) => {
                     <h2 className="card-title text-2xl font-bold">{name}</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
 
-                    <p>Time Required: {time}S</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                    <p className='text-lg font-semibold'>Time Required: {time}s</p>
+                    <div className="card-actions">
+                        <button className="btn btn-primary w-full">Add To List</button>
                     </div>
                 </div>
             </div>
