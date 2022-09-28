@@ -3,10 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Category from '../Category/Category';
 import Cart from '../Cart/Cart';
+import Swal from 'sweetalert2'
 
 const GymContainer = () => {
     const [categories, setCategories] = useState([]);
     const [category, setCategory] = useState([])
+    // const [alertCatagory, setAleartCategory] = useState({})
 
     // let newTime = 0;
     const handleTime = (selectedCategory) => {
@@ -15,6 +17,16 @@ const GymContainer = () => {
             newSelection = [...category, selectedCategory]
         }
         setCategory(newSelection)
+    }
+    const showTost = () => {
+        Swal.fire({
+            title: 'You Have Done Your Exercise!',
+            text: 'Good Job',
+            imageUrl: 'https://www.sjeastern.co.uk/wp-content/uploads/project-completion.jpeg',
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+        })
     }
 
     useState(() => {
@@ -41,8 +53,8 @@ const GymContainer = () => {
                         }
                     </div>
                 </div>
-                <div className='sm:h-60 sm:overflow-scroll md:h-max md:overflow-visible rounded-lg bg-orange-100 p-5 sticky top-0'>
-                    <Cart categories={category} />
+                <div className='sm:h-40 sm:overflow-scroll md:h-max md:overflow-visible rounded-lg bg-orange-100 p-5 sticky top-0'>
+                    <Cart categories={category} showTost={showTost} />
                 </div>
             </div>
         </div>

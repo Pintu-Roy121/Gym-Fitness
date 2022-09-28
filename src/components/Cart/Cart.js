@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import Buttons from '../Buttons/Buttons';
 import Profile from '../Profile/Profile';
 
-const Cart = ({ categories }) => {
+const Cart = ({ categories, showTost }) => {
     const [times, setTime] = useState([])
-    console.log(categories);
+    // console.log(categories);
     let totalTime = 0;
     for (const category of categories) {
         totalTime = totalTime + category.time
@@ -39,7 +39,7 @@ const Cart = ({ categories }) => {
                 </div>
             </div>
             <div className="card-actions mt-9">
-                <button className="btn btn-primary w-full">Activity Completed</button>
+                <button onClick={() => showTost()} className="btn btn-primary w-full">Activity Completed</button>
             </div>
         </div>
     );

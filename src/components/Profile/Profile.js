@@ -14,7 +14,7 @@ const Profile = () => {
             </div>
             <div className='flex justify-between mt-8 bg-slate-50 py-2 px-5 rounded-lg'>
                 <div className='flex flex-col items-center'>
-                    <h1><span className='text-lg text-black font-bold'>75</span>kg</h1>
+                    <h1><span className='text-lg text-black font-bold'>58</span>kg</h1>
                     <p>Weight</p>
                 </div>
                 <div className='flex flex-col items-center'>
