@@ -6,7 +6,16 @@ import Cart from '../Cart/Cart';
 
 const GymContainer = () => {
     const [categories, setCategories] = useState([]);
+    const [category, setCategory] = useState([])
 
+    // let newTime = 0;
+    const handleTime = (selectedCategory) => {
+        let newSelection = []
+        if (selectedCategory) {
+            newSelection = [...category, selectedCategory]
+        }
+        setCategory(newSelection)
+    }
 
     useState(() => {
         fetch('gymcategory.json')
@@ -22,17 +31,18 @@ const GymContainer = () => {
                         <h1 className='text-4xl text-blue-500 font-semibold'> GYM FITNESS FOR HEALTH</h1>
                     </div>
                     <h1 className='text-4xl sm:text-center md:text-left font-medium mb-8'>Select today's exercise</h1>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-5'>
                         {
                             categories.map((category) => <Category
                                 category={category}
+                                handleTime={handleTime}
                                 key={category.id}
                             />)
                         }
                     </div>
                 </div>
-                <div className='lg:w-3/12 sm:max-h-60 sm:overflow-scroll md:overflow-visible md:max-h-screen rounded-lg bg-orange-100 p-5 sticky top-0'>
-                    <Cart />
+                <div className='sm:h-60 sm:overflow-scroll md:h-max md:overflow-visible rounded-lg bg-orange-100 p-5 sticky top-0'>
+                    <Cart categories={category} />
                 </div>
             </div>
         </div>
