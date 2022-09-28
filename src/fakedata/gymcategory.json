@@ -1,0 +1,56 @@
+[
+    {
+        "id": "gymcategory-001",
+        "category": "Heavy Weight",
+        "time": 50,
+        "img": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "gymcategory-002",
+        "category": "Dumblling",
+        "time": 60,
+        "img": "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id": "gymcategory-003",
+        "category": "Muscel Fitness",
+        "time": 60,
+        "img": "https://img5.goodfon.com/wallpaper/nbig/2/73/vzgliad-poza-fitnes-muscle-myshtsy-press-atlet-trenazhery--2.jpg"
+    },
+    {
+        "id": "gymcategory-004",
+        "category": "Push Up Workout",
+        "time": 30,
+        "img": "https://blogscdn.thehut.net/wp-content/uploads/sites/478/2016/03/28023356/clapping-push-up-workout.jpg"
+    },
+    {
+        "id": "gymcategory-005",
+        "category": "Back Muscel",
+        "time": 30,
+        "img": "https://cdn.pixabay.com/photo/2017/06/30/21/02/muscle-2459720__340.jpg"
+    },
+    {
+        "id": "gymcategory-006",
+        "category": "Battle Ropes",
+        "time": 30,
+        "img": "https://static.vecteezy.com/system/resources/thumbnails/003/522/771/small/young-man-working-out-with-battle-ropes-at-gym-free-photo.jpg"
+    },
+    {
+        "id": "gymcategory-007",
+        "category": "Back Stock",
+        "time": 30,
+        "img": "https://us.123rf.com/450wm/nikolasjkd/nikolasjkd2010/nikolasjkd201000013/156458585-muscular-man-workout-in-gym-doing-exercise-for-back-strong-male-rear-view.jpg?ver=6"
+    },
+    {
+        "id": "gymcategory-008",
+        "category": "Chest Exercise Stock",
+        "time": 30,
+        "img": "https://us.123rf.com/450wm/nikolasjkd/nikolasjkd1911/nikolasjkd191100064/136720602-muscular-man-workout-in-gym-strong-male-torso-abs.jpg?ver=6"
+    },
+    {
+        "id": "gymcategory-009",
+        "category": "Leg Workout",
+        "time": 30,
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2016/10/erik-legs.jpg?quality=86&strip=all"
+    }
+]
