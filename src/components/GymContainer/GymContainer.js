@@ -14,14 +14,14 @@ const GymContainer = () => {
     }, [])
     return (
         <div className='m-5'>
-            <div className='flex gap-4 mt-8'>
+            <div className='sm:flex sm:flex-col-reverse md:flex md:flex-row gap-4 mt-8'>
                 <div>
                     <div className='flex text-blue-500 text-3xl items-center gap-4 mb-5'>
                         <FontAwesomeIcon className='text-4xl' icon={faDumbbell} />
                         <h1 className='text-4xl text-blue-500 font-semibold'> GYM FITNESS FOR HEALTH</h1>
                     </div>
                     <h1 className='text-4xl font-medium mb-8'>Select today's exercise</h1>
-                    <div className='grid grid-cols-3 gap-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                         {
                             categories.map((category) => <Category
                                 category={category}
@@ -30,7 +30,7 @@ const GymContainer = () => {
                         }
                     </div>
                 </div>
-                <div className='w-3/12 h-96  rounded-lg bg-orange-100 p-5 sticky top-0'>
+                <div className='lg:w-3/12 lg:h-96 sm:h-40  rounded-lg bg-orange-100 p-5 sticky top-0'>
 
                 </div>
             </div>
