@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Category from '../Category/Category';
+import Cart from '../Cart/Cart';
 
 const GymContainer = () => {
     const [categories, setCategories] = useState([]);
@@ -31,7 +32,7 @@ const GymContainer = () => {
                     </div>
                 </div>
                 <div className='lg:w-3/12 lg:h-96 sm:h-40  rounded-lg bg-orange-100 p-5 sticky top-0'>
-
+                    <Cart />
                 </div>
             </div>
         </div>
