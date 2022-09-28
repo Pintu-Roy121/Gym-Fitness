@@ -8,9 +8,7 @@ import Swal from 'sweetalert2'
 const GymContainer = () => {
     const [categories, setCategories] = useState([]);
     const [category, setCategory] = useState([])
-    // const [alertCatagory, setAleartCategory] = useState({})
 
-    // let newTime = 0;
     const handleTime = (selectedCategory) => {
         let newSelection = []
         if (selectedCategory) {

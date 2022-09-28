@@ -4,7 +4,8 @@ import Profile from '../Profile/Profile';
 
 const Cart = ({ categories, showTost }) => {
     const [times, setTime] = useState([])
-    // console.log(categories);
+    const [breakTime, setBreakTime] = useState(0)
+
     let totalTime = 0;
     for (const category of categories) {
         totalTime = totalTime + category.time
@@ -16,6 +17,11 @@ const Cart = ({ categories, showTost }) => {
             .then(data => setTime(data))
     }, [])
 
+    const handleBreakTime = (time) => {
+
+        setBreakTime(time)
+    }
+
     return (
         <div>
             <Profile />
@@ -23,7 +29,11 @@ const Cart = ({ categories, showTost }) => {
                 <h1 className='text-xl font-semibold text-black mt-4'>Add A Break</h1>
                 <div className='flex bg-slate-50 rounded-lg py-3 px-4 gap-2 mt-2 sm:justify-between'>
                     {
-                        times.map((time) => <Buttons time={time} key={time.id} />)
+                        times.map((time) => <Buttons
+                            time={time}
+                            handleBreakTime={handleBreakTime}
+                            key={time.id}
+                        />)
                     }
                 </div>
             </div>
@@ -35,7 +45,7 @@ const Cart = ({ categories, showTost }) => {
                 </div>
                 <div className='flex bg-slate-50 rounded-lg py-3 px-6 gap-2 mt-2 sm:justify-between'>
                     <h2 className='text-lg text-black font-medium'>Break Time:</h2>
-                    <h2 className='text-lg text-gray-500 font-medium'>200s</h2>
+                    <h2 className='text-lg text-gray-500 font-medium'>{breakTime}s</h2>
                 </div>
             </div>
             <div className="card-actions mt-9">
