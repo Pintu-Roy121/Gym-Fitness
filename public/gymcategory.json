@@ -2,55 +2,89 @@
     {
         "id": "gymcategory-001",
         "name": "Heavy Weight",
+        "description": "Heavy weights increase the power and strength of your muscles without significantly adding bulk or size",
         "time": 50,
+        "age": "20-25",
         "img": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
         "id": "gymcategory-002",
         "name": "Dumblling",
+        "description": "The dumbbell, a type of free weight, is a piece of equipment used in weight training. It can be used individually or in pairs, with one in each hand.",
         "time": 60,
+        "age": "20-25",
         "img": "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "id": "gymcategory-003",
         "name": "Muscel Fitness",
+        "description": "Muscle fitness means having muscles that can lift heavier objects or muscles that will work longer before becoming exhausted.",
         "time": 10,
+        "age": "20-25",
         "img": "https://img5.goodfon.com/wallpaper/nbig/2/73/vzgliad-poza-fitnes-muscle-myshtsy-press-atlet-trenazhery--2.jpg"
     },
     {
         "id": "gymcategory-004",
         "name": "Push Up Workout",
+        "description": "Traditional pushups are beneficial for building upper body strength. They work the triceps, pectoral muscles, and shoulders.",
         "time": 30,
+        "age": "20-25",
         "img": "https://blogscdn.thehut.net/wp-content/uploads/sites/478/2016/03/28023356/clapping-push-up-workout.jpg"
     },
     {
         "id": "gymcategory-005",
         "name": "Back Muscel",
+        "description": "Your back muscles help you move your body, bend over, rotate your trunk and stand up straight.",
         "time": 25,
+        "age": "20-25",
         "img": "https://cdn.pixabay.com/photo/2017/06/30/21/02/muscle-2459720__340.jpg"
     },
     {
         "id": "gymcategory-006",
         "name": "Battle Ropes",
+        "description": "Battle rope exercises are great for building muscular strength, increasing cardiorespiratory fitness, and enhancing athletic performance.",
         "time": 45,
+        "age": "20-25",
         "img": "https://static.vecteezy.com/system/resources/thumbnails/003/522/771/small/young-man-working-out-with-battle-ropes-at-gym-free-photo.jpg"
     },
     {
         "id": "gymcategory-007",
         "name": "Back Stock",
+        "description": "Your back muscles help you move your body, bend over, rotate your trunk and stand up straight.",
         "time": 35,
+        "age": "20-25",
         "img": "https://us.123rf.com/450wm/nikolasjkd/nikolasjkd2010/nikolasjkd201000013/156458585-muscular-man-workout-in-gym-doing-exercise-for-back-strong-male-rear-view.jpg?ver=6"
     },
     {
         "id": "gymcategory-008",
         "name": "Chest Exercise Stock",
+        "description": "Bench press with a neutral grip, Swiss bar, or multi-grip bar. Reverse-grip barbell bench press. Barbell guillotine bench press.",
         "time": 40,
+        "age": "20-25",
         "img": "https://us.123rf.com/450wm/nikolasjkd/nikolasjkd1911/nikolasjkd191100064/136720602-muscular-man-workout-in-gym-strong-male-torso-abs.jpg?ver=6"
     },
     {
         "id": "gymcategory-009",
         "name": "Leg Workout",
+        "description": "Leg Workout helps to improve overall athletic performance and support healthy movement patterns in your daily life.",
         "time": 70,
+        "age": "20-25",
         "img": "https://www.muscleandfitness.com/wp-content/uploads/2016/10/erik-legs.jpg?quality=86&strip=all"
+    },
+    {
+        "id": "gymcategory-010",
+        "name": "Hand Muscels",
+        "description": "Arm exercises will strengthen the muscles, but will have little-to-no effect on the fat stores in the arms.",
+        "time": 30,
+        "age": "20-25",
+        "img": "https://fitnessvolt.com/wp-content/uploads/2022/04/Hand-Grip-Strengthener-750x422.jpg"
+    },
+    {
+        "id": "gymcategory-010",
+        "name": "Big Muscels",
+        "description": "We are India's leading food supplement brand with a vision to facilitate smooth workouts that ensure effective results.",
+        "time": 35,
+        "age": "20-25",
+        "img": "https://cdn.muscleandstrength.com/sites/default/files/intense_super_shred_-_1200x630.jpg"
     }
 ]

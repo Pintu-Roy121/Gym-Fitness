@@ -36,11 +36,11 @@ const GymContainer = () => {
         <div className='m-5'>
             <div className='sm:flex sm:flex-col-reverse md:flex md:flex-row gap-4 mt-8'>
                 <div>
-                    <div className='flex text-blue-500 text-3xl sm:justify-center md:justify-start gap-4 mb-5'>
-                        <FontAwesomeIcon className='text-4xl' icon={faDumbbell} />
-                        <h1 className='text-4xl text-blue-500 font-semibold'> GYM-Fitness for Health</h1>
+                    <div className='flex text-blue-500 text-6xl sm:justify-center items-center md:justify-start gap-4 mb-5'>
+                        <FontAwesomeIcon icon={faDumbbell} />
+                        <h1 className='text-5xl text-blue-500 font-semibold'> GYM-Fitness for Health</h1>
                     </div>
-                    <h1 className='text-4xl sm:text-center md:text-left font-medium mb-8'>Select today's exercise</h1>
+                    <h1 className='text-4xl sm:text-center md:text-left font-medium mb-8'>Select today's exercise:</h1>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-5'>
                         {
                             categories.map((category) => <Category
@@ -51,7 +51,7 @@ const GymContainer = () => {
                         }
                     </div>
                 </div>
-                <div className='sm:h-60 sm:overflow-scroll md:h-max md:overflow-visible rounded-lg bg-orange-100 p-5 sticky top-0'>
+                <div className='sm:h-60 sm:overflow-scroll md:h-max md:overflow-visible rounded-lg bg-gray-200 p-5 sticky top-0 shadow-lg shadow-gray-400'>
                     <Cart
                         categories={category}
                         showTost={showTost}

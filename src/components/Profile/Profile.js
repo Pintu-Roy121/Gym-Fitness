@@ -12,9 +12,9 @@ const Profile = () => {
                     <p className='text-gray-500 font-semibold'><FontAwesomeIcon icon={faLocation} /> Dhaka, Mirpur</p>
                 </div>
             </div>
-            <div className='flex justify-between mt-8 bg-slate-50 py-2 px-5 rounded-lg'>
+            <div className='flex justify-between mt-8 font-semibold bg-slate-50 py-2 px-5 rounded-lg'>
                 <div className='flex flex-col items-center'>
-                    <h1><span className='text-lg text-black font-bold'>58</span>kg</h1>
+                    <h1><span className='text-lg text-black font-bold'>58</span> kg</h1>
                     <p>Weight</p>
                 </div>
                 <div className='flex flex-col items-center'>
@@ -22,7 +22,7 @@ const Profile = () => {
                     <p>Height</p>
                 </div>
                 <div className='flex flex-col items-center'>
-                    <h1><span className='text-lg text-black font-bold'>25</span>yrs</h1>
+                    <h1><span className='text-lg text-black font-bold'>25</span> yrs</h1>
                     <p>Age</p>
                 </div>
             </div>

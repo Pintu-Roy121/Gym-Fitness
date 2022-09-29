@@ -7,7 +7,7 @@ const Questions = () => {
         // </div>
         <div className='m-5 mb-20 flex flex-col gap-4'>
             <div>
-                <label htmlFor="my-modal-5" className="btn modal-button w-full text-3xl font-semibold bg-black border-none">How does React Works?</label>
+                <label htmlFor="my-modal-5" className="btn modal-button w-full text-xl md:text-3xl font-semibold bg-gray-400 text-black border-none">How does React Works?</label>
                 <input type="checkbox" id="my-modal-5" className="modal-toggle" />
                 <div className="modal">
                     <div className="modal-box w-11/12 max-w-5xl">
@@ -20,7 +20,7 @@ const Questions = () => {
                 </div>
             </div>
             <div>
-                <label htmlFor="my-modal-1" className="btn modal-button w-full text-3xl font-semibold bg-black border-none">What is difference between state and props?</label>
+                <label htmlFor="my-modal-1" className="btn modal-button w-full text-xl md:text-3xl font-semibold bg-gray-400 text-black border-none">What is difference between state and props?</label>
                 <input type="checkbox" id="my-modal-1" className="modal-toggle" />
                 <div className="modal">
                     <div className="modal-box w-11/12 max-w-5xl">
@@ -34,17 +34,15 @@ const Questions = () => {
                 </div>
             </div>
             <div>
-                <label htmlFor="my-modal-2" className="btn modal-button w-full text-3xl font-semibold bg-black border-none">What is te purpose of UseEffect without data fetch ?</label>
+                <label htmlFor="my-modal-2" className="btn modal-button w-full text-xl md:text-3xl font-semibold bg-gray-400 text-black border-none">What is te purpose of UseEffect without data fetch ?</label>
                 <input type="checkbox" id="my-modal-2" className="modal-toggle" />
                 <div className="modal">
                     <div className="modal-box w-11/12 max-w-5xl">
                         <h3 className="font-bold text-2xl">What is te purpose of UseEffect without data fetch ?</h3>
                         <p className="py-4 text-lg font-medium">
-                            <ul>
-                                <li>1. Add an event listener for a button.</li>
-                                <li>2. Perform an action when state or props change.</li>
-                                <li>3. Clean up event listeners when the component unmounts.</li>
-                            </ul>
+                            <li>1. Add an event listener for a button.</li>
+                            <li>2. Perform an action when state or props change.</li>
+                            <li>3. Clean up event listeners when the component unmounts.</li>
                             It's important to use Dependency Arrays correctly to optimize your useEffect Hook. One important use of these Hooks is to prevent unnecessary re-renders even when nothing changes.
                         </p>
                         <div className="modal-action">
