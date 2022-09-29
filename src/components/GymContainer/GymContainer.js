@@ -4,6 +4,7 @@ import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Category from '../Category/Category';
 import Cart from '../Cart/Cart';
 import Swal from 'sweetalert2'
+import { toast } from 'react-toastify';
 
 const GymContainer = () => {
     const [categories, setCategories] = useState([]);
@@ -25,6 +26,7 @@ const GymContainer = () => {
             imageHeight: 200,
             imageAlt: 'Custom image',
         })
+        toast("Good Job! You Have Done Your Exercise")
     }
 
     useState(() => {
