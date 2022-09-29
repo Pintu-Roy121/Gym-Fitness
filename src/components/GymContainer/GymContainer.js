@@ -36,9 +36,9 @@ const GymContainer = () => {
         <div className='m-5'>
             <div className='sm:flex sm:flex-col-reverse md:flex md:flex-row gap-4 mt-8'>
                 <div>
-                    <div className='flex text-blue-500 text-6xl sm:justify-center items-center md:justify-start gap-4 mb-5'>
+                    <div className='flex text-success text-6xl sm:justify-center items-center md:justify-start gap-4 mb-5'>
                         <FontAwesomeIcon icon={faDumbbell} />
-                        <h1 className='text-5xl text-blue-500 font-semibold'> GYM-Fitness for Health</h1>
+                        <h1 className='text-5xl text-success font-semibold'> GYM-Fitness for Health</h1>
                     </div>
                     <h1 className='text-4xl sm:text-center md:text-left font-medium mb-8'>Select today's exercise:</h1>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-5'>
