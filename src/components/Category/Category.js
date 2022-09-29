@@ -12,7 +12,7 @@ const Category = ({ category, handleTime }) => {
                     <p className='text-base mt-2 font-medium'>For Age: {age}years</p>
                     <p className='text-lg font-semibold'>Time Required: {time}s</p>
                     <div className="card-actions">
-                        <button onClick={() => handleTime(category)} className="btn btn-success text-white font-bold w-full">Add To List</button>
+                        <button onClick={() => handleTime(category)} className="btn btn-primary w-full">Add To List</button>
                     </div>
                 </div>
             </div>

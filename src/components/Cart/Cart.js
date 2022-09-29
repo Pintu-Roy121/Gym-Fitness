@@ -55,7 +55,7 @@ const Cart = ({ categories, showTost, saveTime }) => {
                 </div>
             </div>
             <div className="card-actions mt-5">
-                <button onClick={() => showTost()} className="btn btn-success text-white font-bold w-full">Activity Completed</button>
+                <button onClick={() => showTost()} className="btn btn-primary w-full">Activity Completed</button>
             </div>
         </div>
     );
