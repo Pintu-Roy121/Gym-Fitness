@@ -19,7 +19,7 @@ const GymContainer = () => {
     const showTost = () => {
         Swal.fire({
             title: 'You Have Done Your Exercise!',
-            text: 'Good Job',
+            text: 'Good Job!',
             imageUrl: 'https://www.sjeastern.co.uk/wp-content/uploads/project-completion.jpeg',
             imageWidth: 400,
             imageHeight: 200,
