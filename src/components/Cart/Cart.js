@@ -43,18 +43,18 @@ const Cart = ({ categories, showTost, saveTime }) => {
                     }
                 </div>
             </div>
-            <div className='mt-5'>
+            <div className='mt-3 text-base'>
                 <h1 className='text-xl text-black font-semibold'>Exercise Details</h1>
-                <div className='flex bg-slate-50 rounded-lg py-3 px-6 gap-2 mt-2 sm:justify-between'>
-                    <h2 className='text-lg text-black font-medium'>Exercise Time:</h2>
-                    <h2 className='text-lg text-gray-500 font-medium'>{totalTime}s</h2>
+                <div className='flex bg-slate-50 rounded-lg py-3 px-3 gap-2 mt-2 sm:justify-between'>
+                    <h2 className='text-black font-medium'>Exercise Time:</h2>
+                    <h2 className='text-gray-500 font-medium'>{totalTime} seconds</h2>
                 </div>
-                <div className='flex bg-slate-50 rounded-lg py-3 px-6 gap-2 mt-2 sm:justify-between'>
-                    <h2 className='text-lg text-black font-medium'>Break Time:</h2>
-                    <h2 className='text-lg text-gray-500 font-medium'>{breakTime}s</h2>
+                <div className='flex bg-slate-50 rounded-lg py-3 px-3 gap-2 mt-2 sm:justify-between'>
+                    <h2 className='text-black font-medium'>Break Time:</h2>
+                    <h2 className='text-gray-500 font-medium'>{breakTime} seconds</h2>
                 </div>
             </div>
-            <div className="card-actions mt-9">
+            <div className="card-actions mt-5">
                 <button onClick={() => showTost()} className="btn btn-primary w-full">Activity Completed</button>
             </div>
         </div>
