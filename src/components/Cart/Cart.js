@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { addToDB, getItem } from '../../utilities/localStorage';
 import Buttons from '../Buttons/Buttons';
 import Profile from '../Profile/Profile';
 
-const Cart = ({ categories, showTost }) => {
+const Cart = ({ categories, showTost, saveTime }) => {
     const [times, setTime] = useState([])
     const [breakTime, setBreakTime] = useState(0)
 
@@ -17,8 +18,13 @@ const Cart = ({ categories, showTost }) => {
             .then(data => setTime(data))
     }, [])
 
-    const handleBreakTime = (time) => {
+    useEffect(() => {
+        const savedTime = getItem()
+        setBreakTime(savedTime)
+    }, [saveTime])
 
+    const handleBreakTime = (time) => {
+        addToDB(time)
         setBreakTime(time)
     }
 

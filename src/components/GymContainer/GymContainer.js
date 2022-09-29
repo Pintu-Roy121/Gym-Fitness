@@ -52,7 +52,10 @@ const GymContainer = () => {
                     </div>
                 </div>
                 <div className='sm:h-40 sm:overflow-scroll md:h-max md:overflow-visible rounded-lg bg-orange-100 p-5 sticky top-0'>
-                    <Cart categories={category} showTost={showTost} />
+                    <Cart
+                        categories={category}
+                        showTost={showTost}
+                    />
                 </div>
             </div>
         </div>
