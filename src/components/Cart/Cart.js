@@ -51,7 +51,7 @@ const Cart = ({ categories, showTost, saveTime }) => {
                 </div>
                 <div className='flex bg-slate-50 rounded-lg py-3 px-3 gap-2 mt-2 sm:justify-between'>
                     <h2 className='text-black font-medium'>Break Time:</h2>
-                    <h2 className='text-gray-500 font-medium'>{breakTime} seconds</h2>
+                    <h2 className='text-gray-500 font-medium'>{breakTime ? breakTime : '0'} seconds</h2>
                 </div>
             </div>
             <div className="card-actions mt-5">

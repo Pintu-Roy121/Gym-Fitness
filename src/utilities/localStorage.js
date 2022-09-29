@@ -1,8 +1,6 @@
-const addToDB = (time) => {
-    if (time) {
-        localStorage.setItem('Break-time', JSON.stringify(time));
-    } else {
-        time = 0;
+const addToDB = (ClickTime) => {
+    if (ClickTime) {
+        localStorage.setItem('Break-time', JSON.stringify(ClickTime));
     }
 }
 
